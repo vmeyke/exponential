@@ -92,5 +92,20 @@ class ezpExtensionHelper
         return true;
     }
 
+    /**
+     * Clears the extension name and path caches of eZExtension.
+     *
+     * Tests that change ExtensionDirectory must call this on tearDown, otherwise
+     * later tests resolve extensions to the paths cached for the test directory.
+     *
+     * @return void
+     */
+    public static function clearPathCaches()
+    {
+        $reflection = new ReflectionClass( 'eZExtension' );
+        $reflection->getProperty( 'extensionNameCache' )->setValue( null, array() );
+        $reflection->getProperty( 'extensionPathCache' )->setValue( null, array() );
+    }
+
 }
 ?>

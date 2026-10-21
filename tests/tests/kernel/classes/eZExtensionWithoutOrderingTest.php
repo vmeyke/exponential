@@ -15,6 +15,7 @@ class eZExtensionWithoutOrderingTest extends ezpTestCase
     {
         ezpINIHelper::setINISetting( 'site.ini', 'ExtensionSettings', 'ExtensionDirectory', 'tests/tests/kernel/classes/extensions/' );
         ezpINIHelper::setINISetting( 'site.ini', 'ExtensionSettings', 'ExtensionOrdering', 'disabled' );
+        ezpINIHelper::setINISetting( 'site.ini', 'ExtensionSettings', 'ActiveAccessExtensions', array() );
         self::clearActiveExtensionsCache();
     }
     public function tearDown(): void
@@ -92,6 +93,9 @@ class eZExtensionWithoutOrderingTest extends ezpTestCase
         // so no wait for the expiry timestamp is needed: the two seconds slept here per call
         // added more than a minute to every run of the suite.
         eZCache::clearByID( 'active_extensions' );
+        // the paths the test resolved under its ExtensionDirectory (extension/ezoe of the fixtures) stay
+        // in eZExtension's path cache otherwise, and later tests read the fixtures' settings
+        ezpExtensionHelper::clearPathCaches();
     }
 }
 

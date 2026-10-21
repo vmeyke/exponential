@@ -39,6 +39,7 @@ class eZExtensionAdditionalDirectoriesTest extends ezpTestCase
         ezpINIHelper::setINISetting( 'site.ini', 'ExtensionSettings', 'ExtensionDirectory', self::$baseExtensionDir );
         ezpINIHelper::setINISetting( 'site.ini', 'ExtensionSettings', 'AdditionalExtensionDirectories', array( self::$additionalExtensionDir ) );
         ezpINIHelper::setINISetting( 'site.ini', 'ExtensionSettings', 'ExtensionOrdering', 'disabled' );
+        ezpINIHelper::setINISetting( 'site.ini', 'ExtensionSettings', 'ActiveAccessExtensions', array() );
         eZExtension::clearActiveExtensionsMemoryCache();
         self::clearExtensionCaches();
     }
