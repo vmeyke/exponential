@@ -187,7 +187,7 @@ class expOEUrlFetcherTest extends expOETestCase
         try
         {
             // the image is a few hundred bytes: use a larger public file of this installation
-            expOEUrlFetcher::fetch( $this->siteUrl( '/design/standard/images/exponential.png' ) );
+            expOEUrlFetcher::fetch( $this->fetchableSiteUrl( '/design/standard/images/exponential.png' ) );
             $this->markTestSkipped( 'the public file is not larger than 1K' );
         }
         catch ( expOEUrlException $e )
@@ -279,7 +279,7 @@ class expOEUrlFetcherTest extends expOETestCase
 
     public function testARealFetchOfAPublicImageOfThisInstallation()
     {
-        $fetched = expOEUrlFetcher::fetch( $this->imageUrl() );
+        $fetched = expOEUrlFetcher::fetch( $this->fetchableSiteUrl( self::IMAGE_PATH ) );
         try
         {
             $this->assertSame( '32x32.gif', $fetched['name'] );
@@ -338,7 +338,7 @@ class expOEUrlFetcherTest extends expOETestCase
         list( $container, $draft ) = $this->containerWithDraft( 'ezoe url upload test' );
 
         $out = $this->runView( 'upload', array( (string) $container->attribute( 'id' ), (string) $draft, 'objects', '0' ),
-            array( 'uploadButton' => '1', 'uploadUrl' => $this->imageUrl(), 'location' => '43', 'objectName' => 'ezoe url upload image ' . getmypid(), 'ContentObjectAttribute_image' => 'alt from url' ) );
+            array( 'uploadButton' => '1', 'uploadUrl' => $this->fetchableSiteUrl( self::IMAGE_PATH ), 'location' => '43', 'objectName' => 'ezoe url upload image ' . getmypid(), 'ContentObjectAttribute_image' => 'alt from url' ) );
         $this->assertSame( 1, preg_match( '/selectByEmbedId\(\s*(\d+)\s*,\s*(\d+)\s*,\s*("(?:[^"\\\\]|\\\\.)*")\s*\)/', $out, $m ), $out );
         $this->objectIDs[] = (int) $m[1];
         $created = eZContentObject::fetch( (int) $m[1] );
@@ -415,6 +415,19 @@ class expOEUrlFetcherTest extends expOETestCase
     protected function imageUrl()
     {
         return $this->siteUrl( self::IMAGE_PATH );
+    }
+
+    /**
+     * @return string the URL of $path for a test that must download it: skips when the public host of this
+     *                installation resolves to no public address (reached as localhost), which the fetcher refuses
+     */
+    protected function fetchableSiteUrl( $path )
+    {
+        $host = ezpLiveInstallation::publicHostOrSkip();
+        $ips = gethostbynamel( $host );
+        if ( !$ips || !array_filter( $ips, array( 'expOEUrlFetcher', 'isPublicIp' ) ) )
+            $this->markTestSkipped( "the public host $host resolves to no public address, which the fetcher refuses" );
+        return $this->siteUrl( $path );
     }
 
     /** @return array files left in the temporary directory of the fetcher */

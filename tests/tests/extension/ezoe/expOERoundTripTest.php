@@ -8,6 +8,52 @@ require_once __DIR__ . '/expOETestCase.php';
 
 class expOERoundTripTest extends expOETestCase
 {
+    /** @var array the content.ini settings the custom tag cases change, with their values before the test */
+    protected $savedContent = array();
+
+    protected $savedSchema = null;
+
+    public function setUp(): void
+    {
+        parent::setUp();
+        // the custom tag cases use math_latex, which the shipped content.ini does not register: without it the parser drops the tag
+        $ini = eZINI::instance( 'content.ini' );
+        $tags = $ini->hasVariable( 'CustomTagSettings', 'AvailableCustomTags' ) ? (array)$ini->variable( 'CustomTagSettings', 'AvailableCustomTags' ) : array();
+        $inline = $ini->hasVariable( 'CustomTagSettings', 'IsInline' ) ? (array)$ini->variable( 'CustomTagSettings', 'IsInline' ) : array();
+        $settings = array(
+            array( 'CustomTagSettings', 'AvailableCustomTags', array_values( array_unique( array_merge( $tags, array( 'math_latex' ) ) ) ) ),
+            array( 'CustomTagSettings', 'IsInline', array_merge( $inline, array( 'math_latex' => 'true' ) ) ),
+            array( 'math_latex', 'CustomAttributes', array( 'display', 'alt' ) ),
+        );
+        foreach ( $settings as $setting )
+        {
+            list( $block, $name, $value ) = $setting;
+            $this->savedContent[] = array( $block, $name, $ini->hasVariable( $block, $name ) ? $ini->variable( $block, $name ) : null );
+            $ini->setVariable( $block, $name, $value );
+        }
+        $this->savedSchema = $GLOBALS['eZXMLSchemaGlobalInstance'] ?? null;
+        unset( $GLOBALS['eZXMLSchemaGlobalInstance'] );
+    }
+
+    public function tearDown(): void
+    {
+        $ini = eZINI::instance( 'content.ini' );
+        foreach ( array_reverse( $this->savedContent ) as $setting )
+        {
+            list( $block, $name, $value ) = $setting;
+            if ( $value === null )
+                $ini->removeSetting( $block, $name );
+            else
+                $ini->setVariable( $block, $name, $value );
+        }
+        $this->savedContent = array();
+        if ( $this->savedSchema !== null )
+            $GLOBALS['eZXMLSchemaGlobalInstance'] = $this->savedSchema;
+        else
+            unset( $GLOBALS['eZXMLSchemaGlobalInstance'] );
+        parent::tearDown();
+    }
+
     protected function xml( $html )
     {
         $parser = new eZOEInputParser();
