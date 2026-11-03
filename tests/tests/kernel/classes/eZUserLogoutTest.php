@@ -34,6 +34,8 @@ class eZUserLogoutTest extends PHPUnit\Framework\TestCase
     private $savedCookie = array();
     private $hadDB;
     private $previousDB;
+    /** @var array|null the eZSiteBasics session-required entry before the test, wrapped (null when it was not set) */
+    private $savedSessionRequired;
 
     protected function setUp(): void
     {
@@ -52,6 +54,11 @@ class eZUserLogoutTest extends PHPUnit\Framework\TestCase
         $this->savedCookieParams = session_get_cookie_params();
         $this->savedCookie = $_COOKIE;
         session_name( self::NAME );
+        // A kernel started before by another test (eZScript with use-session false, as ezpLiveInstallation does)
+        // leaves eZSiteBasics session-required at false, and eZSession then starts no session at all
+        $this->savedSessionRequired = isset( $GLOBALS['eZSiteBasics'] ) && array_key_exists( 'session-required', $GLOBALS['eZSiteBasics'] )
+            ? array( $GLOBALS['eZSiteBasics']['session-required'] ) : null;
+        $GLOBALS['eZSiteBasics']['session-required'] = true;
 
         ezpINIHelper::setINISetting( 'site.ini', 'Session', 'CookiePath', '/logout-test/' );
         ezpINIHelper::setINISetting( 'site.ini', 'Session', 'CookieDomain', '.logout-test.invalid' );
@@ -82,6 +89,10 @@ class eZUserLogoutTest extends PHPUnit\Framework\TestCase
             ini_set( $key, (string)$value );
         $_COOKIE = $this->savedCookie;
         $_SESSION = array();
+        if ( $this->savedSessionRequired === null )
+            unset( $GLOBALS['eZSiteBasics']['session-required'] );
+        else
+            $GLOBALS['eZSiteBasics']['session-required'] = $this->savedSessionRequired[0];
         ezpINIHelper::restoreINISettings();
         $GLOBALS['eZUserGlobalInstance_'] = false;
         $this->setStatic( 'eZUser', 'userHasLoggedOut', false );
