@@ -6,7 +6,10 @@
  *  HC-01 - A node whose date in content.ini [HideSettings] HideDateAttributeList has passed is hidden, and the
  *          search engine's updateNodeVisibility() is called with the node and 'hide'
  *  HC-02 - The content/cache event of the hide gives listeners ( $nodeIDs, $objectIDs ) with the hidden object's
- *          id; a listener that takes only the node ids keeps working
+ *          id; a listener that takes only the node ids keeps working (with ViewCaching enabled, as only then the
+ *          view caches are cleared and the event is sent)
+ *  HC-03 - The cronjob ends when the process read ShowHiddenNodes=true before it (an earlier test or cronjob part):
+ *          it sets ShowHiddenNodes=false and the fetches follow it, so hidden nodes are not fetched again
  *
  * Live database, nothing kept: a throwaway folder and one object below it are created inside a database
  * transaction that is rolled back at the end, and the cronjob runs only below that folder (RootNodeList), so no
@@ -81,6 +84,8 @@ class HideCronjobSearchIndexTest extends PHPUnit\Framework\TestCase
                 $ini->removeSetting( $block, $name );
         }
         $this->settings = array();
+        // the cronjob read ShowHiddenNodes=false into the cache; later tests read the restored setting again
+        eZContentObjectTreeNode::resetShowInvisibleNodesCache();
         if ( $this->engineKey !== null )
         {
             if ( $this->engineBackup === null )
@@ -137,6 +142,12 @@ class HideCronjobSearchIndexTest extends PHPUnit\Framework\TestCase
         $this->setting( 'content.ini', 'HideSettings', 'RootNodeList', array( $folderNodeID ) );
         $this->setting( 'content.ini', 'HideSettings', 'HideDateAttributeList', array( $classIdentifier => $attributeIdentifier ) );
         $this->setting( 'site.ini', 'SiteAccessSettings', 'ShowHiddenNodes', eZINI::instance()->variable( 'SiteAccessSettings', 'ShowHiddenNodes' ) );
+        // HC-02: eZContentCacheManager sends content/cache only when it clears view caches
+        $this->setting( 'site.ini', 'ContentSettings', 'ViewCaching', 'enabled' );
+        // as after an earlier fetch of this process with ShowHiddenNodes=true: the cronjob must not loop on it
+        $this->setting( 'site.ini', 'SiteAccessSettings', 'ShowHiddenNodes', 'true' );
+        eZContentObjectTreeNode::resetShowInvisibleNodesCache();
+        $this->assertTrue( eZContentObjectTreeNode::showInvisibleNodes() );
 
         $engine = new class extends eZSearchEngine {
             public $visibility = array();
