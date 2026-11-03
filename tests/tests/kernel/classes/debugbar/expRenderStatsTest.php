@@ -120,15 +120,38 @@ class expRenderStatsTest extends PHPUnit\Framework\TestCase
     {
         // the expiry check registers eZExecution's shutdown and exception handlers on its first call
         $handler = self::exceptionHandler();
+        // contentViewRetrieve() first asks whether all view caches expired after the file's time. That timestamp is
+        // shared (var/cache/expiry.php): a test, a cronjob or the site that expired the view caches less than 30 s
+        // ago turned the file of 30 s ago into an eZClusterFileFailure. It is set an hour back in this process only:
+        // eZExpiryHandler::store() never writes a value older than the stored one, and it is put back afterwards.
+        $expiry = eZExpiryHandler::instance();
+        $hadExpiry = array_key_exists( 'content-view-cache', $expiry->Timestamps );
+        $oldExpiry = $hadExpiry ? $expiry->Timestamps['content-view-cache'] : null;
+        $wasModified = $expiry->IsModified;
+        $expiry->Timestamps['content-view-cache'] = time() - 3600;
         try
         {
             $this->retrieveNotesTheOutcome();
         }
         finally
         {
+            if ( $hadExpiry )
+                $expiry->Timestamps['content-view-cache'] = $oldExpiry;
+            else
+                unset( $expiry->Timestamps['content-view-cache'] );
+            $expiry->IsModified = $wasModified;
             while ( self::exceptionHandler() !== $handler && self::exceptionHandler() !== null )
                 restore_exception_handler();
         }
+    }
+
+    /** The expiry of all view caches, as a later fetch in the same process sees it, is not changed by the test */
+    public function testContentViewRetrieveLeavesTheViewCacheExpiryAlone()
+    {
+        $expiry = eZExpiryHandler::instance();
+        $before = array( $expiry->Timestamps, $expiry->IsModified );
+        $this->testContentViewRetrieveNotesTheOutcome();
+        $this->assertSame( $before, array( $expiry->Timestamps, $expiry->IsModified ) );
     }
 
     private static function exceptionHandler()
@@ -143,6 +166,7 @@ class expRenderStatsTest extends PHPUnit\Framework\TestCase
         $args = array( 'ini' => eZINI::instance() );
         $file = $this->cacheFile( array( 'content' => 'cached', 'errorType' => 'kernel', 'errorNumber' => 1 ) );
         $result = eZNodeviewfunctions::contentViewRetrieve( $file, time() - 30, $args );
+        $this->assertIsArray( $result, 'the cache file of 30 s ago is used, not expired' );
         $this->assertSame( 'cached', $result['content'] );
         $cache = expRenderStats::viewCache();
         $this->assertSame( 'hit', $cache['state'] );
