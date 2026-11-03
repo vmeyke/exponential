@@ -150,7 +150,7 @@ class eZSiteLogReadersTest extends PHPUnit\Framework\TestCase
         {
             $root = expAuditConfig::root();
             $this->assertSame( $runDir, expAuditConfig::get()['logDir'], 'this process writes into the run directory' );
-            $this->assertSame( $root . 'var/x1example/log/audit', expAuditConfig::siteLogDir(), 'the site writes into LogDir' );
+            $this->assertSame( $root . 'var/x1example/' . $this->auditLogDir(), expAuditConfig::siteLogDir(), 'the site writes into LogDir' );
             $this->assertSame( $runDir, expAuditConfig::testLogDir(), 'the run directory is kept' );
             $this->assertSame( $runDir, expAuditConfig::get()['logDir'], 'and still used afterwards' );
         }
@@ -160,22 +160,32 @@ class eZSiteLogReadersTest extends PHPUnit\Framework\TestCase
         }
     }
 
+    /**
+     * audit.ini [AuditSettings] LogDir as the installation sets it (log/audit by default), relative to VarDir. Read,
+     * not written in: an installation, or the settings of a test environment, may move it.
+     */
+    private function auditLogDir()
+    {
+        return trim( (string)eZINI::instance( 'audit.ini' )->variable( 'AuditSettings', 'LogDir' ), '/' );
+    }
+
     private function checkAuditRecordsStayInsideVarDir( eZINI $ini )
     {
         $root = expAuditConfig::root();
-        $this->assertSame( $root . 'var/x1example/log/audit', expAuditConfig::get()['logDir'] );
+        $logDir = $this->auditLogDir();
+        $this->assertSame( $root . 'var/x1example/' . $logDir, expAuditConfig::get()['logDir'] );
         $this->assertSame( $root . 'var/x1example/log/audit/spool', expAuditConfig::path( 'log/audit/spool' ) );
         $audit = eZAudit::fetchAuditNameSettings();
         foreach ( $audit as $name => $setting )
         {
-            $this->assertSame( expAuditConfig::path( 'log/audit' ), rtrim( $setting['dir'], '/' ), $name );
+            $this->assertSame( expAuditConfig::path( $logDir ), rtrim( $setting['dir'], '/' ), $name );
         }
 
         // An absolute VarDir is used as it is, not put inside the installation
         $varDir = $this->tempDir( 'var' );
         $ini->setVariable( 'FileSettings', 'VarDir', $varDir );
         expAuditConfig::reset();
-        $this->assertSame( $varDir . '/log/audit', expAuditConfig::get()['logDir'] );
+        $this->assertSame( $varDir . '/' . $logDir, expAuditConfig::get()['logDir'] );
         $this->assertSame( $varDir . '/log/audit/archive', expAuditConfig::path( 'log/audit/archive' ) );
     }
 
